@@ -111,7 +111,7 @@ SECRET_ACCESS_KEY = the-secret-access-key
 ...
 ```
 
-*Important:* never share this credentials to anyone, your AWS account can be compromised.
+**Important:** never share this credentials to anyone, your AWS account can be compromised.
 
 It's time to add some permissions to the user. Go to the _Users_ menu and navigate to the user _Summary_. Here you can select the tab _Permissions_ and click the button _Add inline policy_.
 
@@ -232,6 +232,10 @@ This step will test your patience: it can takes a few hours to complete. It perf
 Run this command:
 
 ```bash
+# Move to the src directory...
+cd src
+
+# ...and run the ETL
 python etl.py
 ```
 
